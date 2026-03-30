@@ -1,1 +1,1 @@
-Become a Sponser ko remove kar dooor is ka shat joo "LAst ma likha ha "Disclamer is ko bhi remove kar doo or is ka shat tum add karo jasa kaa "Share feture jo user ko app share akrna daa "user share per click akra ga to "https://am-abdulmueed.vercel.app/download" ka link share hoga or is per ek link ka shat prefilles message bhi hoga jis per likha hoga kaa "Youtueb pro 100% free without any ads :" thik haa 
+ab muaj reward ads lagnai ha ka suer jab app kko open kara to user koe k dialog show ho ka "wathc just 1 ad and use ulimites without ads
