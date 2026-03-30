@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.google.android.abdul.protube.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\Projects\\IN_BUILD\\YTPro-main\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "6,3,4,5,1,2,7",
+                        "startColumns": "1,1,1,1,1,1,4",
+                        "startOffsets": "257,108,152,206,14,59,300",
+                        "endColumns": "38,42,52,49,43,47,39",
+                        "endOffsets": "294,149,203,254,56,105,335"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,143,199,252,299,350",
+                        "endColumns": "41,45,55,52,46,50,39",
+                        "endOffsets": "92,138,194,247,294,345,385"
+                    }
+                },
+                {
+                    "source": "E:\\Projects\\IN_BUILD\\YTPro-main\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,6,5,2,3,4",
+                        "startColumns": "1,1,1,1,1,1",
+                        "startOffsets": "14,430,376,78,184,283",
+                        "endColumns": "62,36,52,104,97,91",
+                        "endOffsets": "75,465,427,181,280,373"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "390,456,496,552,660,761",
+                        "endColumns": "65,39,55,107,100,94",
+                        "endOffsets": "451,491,547,655,756,851"
+                    }
+                },
+                {
+                    "source": "E:\\Projects\\IN_BUILD\\YTPro-main\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "1,11",
+                        "startColumns": "9,1",
+                        "startOffsets": "22,665",
+                        "endLines": "10,13",
+                        "endColumns": "9,9",
+                        "endOffsets": "662,773"
+                    },
+                    "to": {
+                        "startLines": "15,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "856,1492",
+                        "endLines": "24,27",
+                        "endColumns": "9,9",
+                        "endOffsets": "1487,1598"
+                    }
+                }
+            ]
+        }
+    ]
+}

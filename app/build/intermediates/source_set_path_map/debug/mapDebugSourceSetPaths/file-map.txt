@@ -1,0 +1,8 @@
+com.google.android.abdul.protube.app-pngs-0 E:\Projects\IN_BUILD\YTPro-main\app\build\generated\res\pngs\debug
+com.google.android.abdul.protube.app-resValues-1 E:\Projects\IN_BUILD\YTPro-main\app\build\generated\res\resValues\debug
+com.google.android.abdul.protube.app-updated_navigation_xml-2 E:\Projects\IN_BUILD\YTPro-main\app\build\generated\updated_navigation_xml\debug
+com.google.android.abdul.protube.app-packageDebugResources-3 E:\Projects\IN_BUILD\YTPro-main\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.google.android.abdul.protube.app-packageDebugResources-4 E:\Projects\IN_BUILD\YTPro-main\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.google.android.abdul.protube.app-debug-5 E:\Projects\IN_BUILD\YTPro-main\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.google.android.abdul.protube.app-debug-6 E:\Projects\IN_BUILD\YTPro-main\app\src\debug\res
+com.google.android.abdul.protube.app-main-7 E:\Projects\IN_BUILD\YTPro-main\app\src\main\res

@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.android.abdul.protube"
+4    android:versionCode="1"
+5    android:versionName="3.95" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:4:2-63
+11-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:4:19-61
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:5:2-74
+12-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:5:19-71
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:6:2-68
+13-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:6:19-65
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:7:2-77
+14-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:7:19-74
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:8:2-78
+15-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:8:19-75
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:9:2-74
+16-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:9:19-71
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+17-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:10:2-89
+17-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:10:19-86
+18
+19    <application
+19-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:11:2-79:16
+20        android:allowBackup="true"
+20-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:12:3-29
+21        android:debuggable="true"
+22        android:extractNativeLibs="true"
+23        android:icon="@mipmap/app_icon"
+23-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:14:3-34
+24        android:label="@string/app_name"
+24-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:13:3-35
+25        android:largeHeap="true"
+25-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:16:3-27
+26        android:roundIcon="@mipmap/app_icon"
+26-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:15:3-39
+27        android:theme="@style/AppTheme"
+27-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:18:3-34
+28        android:usesCleartextTraffic="true" >
+28-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:17:3-38
+29        <activity
+29-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:19:3-46:14
+30            android:name="com.google.android.abdul.protube.MainActivity"
+30-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:20:4-32
+31            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+31-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:21:4-97
+32            android:exported="true"
+32-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:25:25-48
+33            android:hardwareAccelerated="true"
+33-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:22:4-38
+34            android:screenOrientation="unspecified"
+34-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:26:4-43
+35            android:supportsPictureInPicture="true"
+35-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:23:4-43
+36            android:theme="@style/AppTheme" >
+36-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:24:11-42
+37            <intent-filter>
+37-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:27:4-30:20
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:28:5-56
+38-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:28:13-54
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:29:5-64
+40-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:29:15-62
+41            </intent-filter>
+42            <intent-filter>
+42-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:31:4-40:20
+43                <action android:name="android.intent.action.VIEW" />
+43-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:5-57
+43-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:13-54
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+45-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
+46                <category android:name="android.intent.category.BROWSABLE" />
+46-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:5-66
+46-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:15-63
+47
+48                <data android:scheme="http" />
+48-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+48-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+49                <data android:scheme="https" />
+49-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+49-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+50                <data android:host="youtube.com" />
+50-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+50-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+51                <data android:host="*.youtube.com" />
+51-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+51-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+52                <data android:host="youtu.be" />
+52-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+52-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+53            </intent-filter>
+54            <intent-filter>
+54-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:41:4-45:20
+55                <action android:name="android.intent.action.SEND" />
+55-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:5-57
+55-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:13-54
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+57-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
+58
+59                <data android:mimeType="text/plain" />
+59-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+59-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:44:11-40
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:47:3-70:14
+63            android:name="com.google.android.abdul.protube.DownloadFromIntentFilter"
+63-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:48:4-44
+64            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+64-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:49:4-97
+65            android:exported="true"
+65-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:53:4-27
+66            android:hardwareAccelerated="true"
+66-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:50:4-38
+67            android:screenOrientation="unspecified"
+67-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:54:4-43
+68            android:supportsPictureInPicture="true"
+68-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:51:4-43
+69            android:theme="@style/AppTheme" >
+69-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:52:4-35
+70            <intent-filter android:label="@string/dl" >
+70-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:31:4-40:20
+70-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:55:19-45
+71                <action android:name="android.intent.action.VIEW" />
+71-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:5-57
+71-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:13-54
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+73-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:5-66
+74-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:15-63
+75
+76                <data android:scheme="http" />
+76-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+76-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+77                <data android:scheme="https" />
+77-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+77-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+78                <data android:host="youtube.com" />
+78-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+78-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+79                <data android:host="*.youtube.com" />
+79-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+79-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+80                <data android:host="youtu.be" />
+80-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+80-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+81            </intent-filter>
+82            <intent-filter android:label="@string/dl" >
+82-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:41:4-45:20
+82-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:65:19-45
+83                <action android:name="android.intent.action.SEND" />
+83-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:5-57
+83-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:13-54
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+85-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
+86
+87                <data android:mimeType="text/plain" />
+87-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+87-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:44:11-40
+88            </intent-filter>
+89        </activity>
+90
+91        <service
+91-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:71:3-76:6
+92            android:name="com.google.android.abdul.protube.ForegroundService"
+92-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:72:4-37
+93            android:enabled="true"
+93-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:73:4-26
+94            android:exported="true"
+94-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:74:4-27
+95            android:foregroundServiceType="mediaPlayback" />
+95-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:75:4-49
+96
+97        <receiver android:name="com.google.android.abdul.protube.NotificationActionService" />
+97-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:78:3-56
+97-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:78:13-54
+98    </application>
+99
+100</manifest>

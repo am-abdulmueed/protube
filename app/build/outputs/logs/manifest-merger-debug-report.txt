@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:1:1-80:12
+INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:1:1-80:12
+INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:1:1-80:12
+INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:1:1-80:12
+	package
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:3:2-44
+		INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:2:2-60
+uses-permission#android.permission.INTERNET
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:4:2-63
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:4:19-61
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:5:2-74
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:5:19-71
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:6:2-68
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:6:19-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:7:2-77
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:7:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:8:2-78
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:8:19-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:9:2-74
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:9:19-71
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:10:2-89
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:10:19-86
+application
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:11:2-79:16
+INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:11:2-79:16
+	android:extractNativeLibs
+		INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:13:3-35
+	android:roundIcon
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:15:3-39
+	android:largeHeap
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:16:3-27
+	android:icon
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:14:3-34
+	android:allowBackup
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:12:3-29
+	android:theme
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:18:3-34
+	android:usesCleartextTraffic
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:17:3-38
+activity#com.google.android.abdul.protube.MainActivity
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:19:3-46:14
+	android:screenOrientation
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:26:4-43
+	android:hardwareAccelerated
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:22:4-38
+	android:exported
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:25:25-48
+	android:supportsPictureInPicture
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:23:4-43
+	android:configChanges
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:21:4-97
+	android:theme
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:24:11-42
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:20:4-32
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:27:4-30:20
+action#android.intent.action.MAIN
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:28:5-56
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:28:13-54
+category#android.intent.category.LAUNCHER
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:29:5-64
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:29:15-62
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*.youtube.com+data:host:youtu.be+data:host:youtube.com+data:scheme:http+data:scheme:https
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:31:4-40:20
+	android:label
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:55:19-45
+action#android.intent.action.VIEW
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:5-57
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:13-54
+category#android.intent.category.DEFAULT
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
+category#android.intent.category.BROWSABLE
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:5-66
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:15-63
+data
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+	android:host
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+	android:scheme
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+	android:mimeType
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:44:11-40
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:41:4-45:20
+	android:label
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:65:19-45
+action#android.intent.action.SEND
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:5-57
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:13-54
+activity#com.google.android.abdul.protube.DownloadFromIntentFilter
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:47:3-70:14
+	android:screenOrientation
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:54:4-43
+	android:hardwareAccelerated
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:50:4-38
+	android:exported
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:53:4-27
+	android:supportsPictureInPicture
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:51:4-43
+	android:configChanges
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:49:4-97
+	android:theme
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:52:4-35
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:48:4-44
+service#com.google.android.abdul.protube.ForegroundService
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:71:3-76:6
+	android:enabled
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:73:4-26
+	android:exported
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:74:4-27
+	android:foregroundServiceType
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:75:4-49
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:72:4-37
+receiver#com.google.android.abdul.protube.NotificationActionService
+ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:78:3-56
+	android:name
+		ADDED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:78:13-54
+uses-sdk
+INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml
