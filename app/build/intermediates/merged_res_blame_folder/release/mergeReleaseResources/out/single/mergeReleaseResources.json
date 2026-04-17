@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\mipmap-xhdpi_app_icon.jpg.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\mipmap-xhdpi\\app_icon.jpg"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_button_bg_gradient.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\button_bg_gradient.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable-xhdpi_monochrome.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable-xhdpi\\monochrome.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable-xhdpi_foreground.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable-xhdpi\\foreground.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_ic_instagram.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\ic_instagram.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_dialog_bg_rounded.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\dialog_bg_rounded.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\mipmap-xhdpi-v26_app_icon.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\mipmap-xhdpi-v26\\app_icon.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable-xhdpi_notification.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable-xhdpi\\notification.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\xml_file_paths.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_ic_ig_bg_circle.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\ic_ig_bg_circle.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\layout_main.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_ytpro.gif.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\ytpro.gif"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\layout_dialog_reward_ad.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\layout\\dialog_reward_ad.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_ic_skip_previous_white.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\ic_skip_previous_white.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_ic_play_arrow_white.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\ic_play_arrow_white.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_button_ig_gradient.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\button_ig_gradient.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_ic_play_red.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\ic_play_red.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\layout_dialog_follow_instagram.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\layout\\dialog_follow_instagram.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_ic_pause_white.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\ic_pause_white.xml"
+    },
+    {
+        "merged": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-release-32:\\drawable_ic_skip_next_white.xml.flat",
+        "source": "E:\\INSTALLATION\\.gradle\\daemon\\8.13\\com.google.android.abdul.protube.app-main-33:\\drawable\\ic_skip_next_white.xml"
+    }
+]

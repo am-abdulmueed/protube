@@ -6,8 +6,10 @@ import android.os.*;
 import android.view.*;
 import android.widget.*;
 import android.content.*;
+import android.content.ActivityNotFoundException;
 import android.content.res.*;
 import android.graphics.*;
+import android.graphics.drawable.*;
 import android.net.*;
 import android.util.*;
 import android.webkit.*;
@@ -24,6 +26,8 @@ import javax.net.ssl.HttpsURLConnection;
 import java.util.*;
 import android.window.OnBackInvokedCallback;
 import android.window.OnBackInvokedDispatcher;
+import com.unity3d.ads.*;
+import com.unity3d.services.banners.*;
 
 public class MainActivity extends Activity {
 
@@ -43,12 +47,21 @@ public class MainActivity extends Activity {
     private YTProWebview web;
     private OnBackInvokedCallback backCallback;
 
+    private String unityGameID = "6078339";
+    private String rewardedID = "Rewarded_Android";
+    private String bannerID = "Banner_Android";
+    private boolean testMode = true;
+    private BannerView bannerView;
+    private FrameLayout bannerContainer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
         SharedPreferences prefs = getSharedPreferences("YTPRO", MODE_PRIVATE);
+        int launches = prefs.getInt("launch_count", 0) + 1;
+        prefs.edit().putInt("launch_count", launches).apply();
 
         if (!prefs.contains("bgplay")) {
             prefs.edit().putBoolean("bgplay", true).apply();
@@ -58,6 +71,173 @@ public class MainActivity extends Activity {
 
         MainActivity.this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
+        initUnityAds();
+    }
+
+    private void initUnityAds() {
+        UnityAds.initialize(getApplicationContext(), unityGameID, testMode, new IUnityAdsInitializationListener() {
+            @Override
+            public void onInitializationComplete() {
+                loadBannerAd();
+                showRewardDialog();
+            }
+
+            @Override
+            public void onInitializationFailed(UnityAds.UnityAdsInitializationError error, String message) {
+            }
+        });
+    }
+
+    private void showRewardDialog() {
+        runOnUiThread(() -> {
+            Dialog dialog = new Dialog(this, R.style.CustomDialog);
+            View view = getLayoutInflater().inflate(R.layout.dialog_reward_ad, null);
+            dialog.setContentView(view);
+            dialog.setCancelable(false);
+            
+            ImageView dialogIcon = view.findViewById(R.id.dialog_icon);
+            if (Build.VERSION.SDK_INT >= 28) {
+                try {
+                    ImageDecoder.Source source = ImageDecoder.createSource(getResources(), R.drawable.ytpro);
+                    Drawable drawable = ImageDecoder.decodeDrawable(source);
+                    dialogIcon.setImageDrawable(drawable);
+                    if (drawable instanceof AnimatedImageDrawable) {
+                        ((AnimatedImageDrawable) drawable).start();
+                    }
+                } catch (IOException e) {
+                    dialogIcon.setImageResource(R.drawable.ytpro);
+                }
+            } else {
+                dialogIcon.setImageResource(R.drawable.ytpro);
+            }
+            
+            Button btnWatch = view.findViewById(R.id.btn_watch_ad);
+            btnWatch.setOnClickListener(v -> {
+                dialog.dismiss();
+                loadRewardedAd();
+            });
+
+            // Make it responsive (set width limit)
+            Window window = dialog.getWindow();
+            if (window != null) {
+                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+                lp.copyFrom(window.getAttributes());
+                lp.width = (int) (getResources().getDisplayMetrics().widthPixels * 0.9);
+                lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
+                window.setAttributes(lp);
+            }
+            
+            dialog.show();
+        });
+    }
+
+    private void showFollowDialog() {
+        runOnUiThread(() -> {
+            Dialog dialog = new Dialog(this, R.style.CustomDialog);
+            View view = getLayoutInflater().inflate(R.layout.dialog_follow_instagram, null);
+            dialog.setContentView(view);
+            dialog.setCancelable(true);
+            
+            Button btnFollow = view.findViewById(R.id.btn_follow_ig);
+            btnFollow.setOnClickListener(v -> {
+                dialog.dismiss();
+                openInstagram();
+            });
+
+            view.findViewById(R.id.btn_close).setOnClickListener(v -> dialog.dismiss());
+
+            // Make it responsive
+            Window window = dialog.getWindow();
+            if (window != null) {
+                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+                lp.copyFrom(window.getAttributes());
+                lp.width = (int) (getResources().getDisplayMetrics().widthPixels * 0.9);
+                lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
+                window.setAttributes(lp);
+            }
+            dialog.show();
+        });
+    }
+
+    private void openInstagram() {
+        String handle = "a.b.d.u.l.m.u.e.e.d";
+        Uri uri = Uri.parse("http://instagram.com/_u/" + handle);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        intent.setPackage("com.instagram.android");
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException e) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://instagram.com/" + handle)));
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        menu.add(0, 1, 0, "Follow on Instagram");
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == 1) {
+            openInstagram();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    
+    private void loadRewardedAd() {
+        UnityAds.load(rewardedID, new IUnityAdsLoadListener() {
+            @Override
+            public void onUnityAdsAdLoaded(String placementId) {
+                UnityAds.show(MainActivity.this, rewardedID, new IUnityAdsShowListener() {
+                    @Override
+                    public void onUnityAdsShowFailure(String placementId, UnityAds.UnityAdsShowError error, String message) {}
+
+                    @Override
+                    public void onUnityAdsShowStart(String placementId) {}
+
+                    @Override
+                    public void onUnityAdsShowClick(String placementId) {}
+
+                    @Override
+                    public void onUnityAdsShowComplete(String placementId, UnityAds.UnityAdsShowCompletionState state) {
+                        SharedPreferences prefs = getSharedPreferences("YTPRO", MODE_PRIVATE);
+                        if (prefs.getInt("launch_count", 0) == 3 && !prefs.getBoolean("ig_followed", false)) {
+                            prefs.edit().putBoolean("ig_followed", true).apply();
+                            showFollowDialog();
+                        }
+                    }
+                });
+            }
+
+            @Override
+            public void onUnityAdsFailedToLoad(String placementId, UnityAds.UnityAdsLoadError error, String message) {
+            }
+        });
+    }
+
+    private void loadBannerAd() {
+        bannerContainer = findViewById(R.id.banner_container);
+        bannerView = new BannerView(this, bannerID, new UnityBannerSize(320, 50));
+        bannerView.setListener(new BannerView.IListener() {
+            @Override
+            public void onBannerLoaded(BannerView bannerAdView) {}
+
+            @Override
+            public void onBannerShown(BannerView bannerAdView) {}
+
+            @Override
+            public void onBannerClick(BannerView bannerAdView) {}
+
+            @Override
+            public void onBannerFailedToLoad(BannerView bannerAdView, BannerErrorInfo errorInfo) {}
+
+            @Override
+            public void onBannerLeftApplication(BannerView bannerAdView) {}
+        });
+        bannerContainer.addView(bannerView);
+        bannerView.load();
     }
 
     public void load(boolean dl) {
@@ -440,12 +620,36 @@ public class MainActivity extends Activity {
             PackageManager manager = getApplicationContext().getPackageManager();
             try {
                 PackageInfo info = manager.getPackageInfo(getApplicationContext().getPackageName(),
-                        PackageManager.GET_ACTIVITIES);
+                        0);
                 return info.versionName + "";
             } catch (PackageManager.NameNotFoundException e) {
                 return "1.0";
             }
 
+        }
+
+        @JavascriptInterface
+        public void checkUpdate() {
+            new Thread(() -> {
+                try {
+                    URL url = new URL("https://api.github.com/repos/am-abdulmueed/protube/releases/latest");
+                    HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
+                    conn.setRequestMethod("GET");
+                    conn.setRequestProperty("User-Agent", "Protube-App");
+                    
+                    if (conn.getResponseCode() == 200) {
+                        Scanner s = new Scanner(conn.getInputStream()).useDelimiter("\\A");
+                        String result = s.hasNext() ? s.next() : "";
+                        JSONObject json = new JSONObject(result);
+                        String latestVer = json.getString("tag_name").replace("v", "");
+                        String body = json.getString("body");
+                        
+                        runOnUiThread(() -> web.evaluateJavascript("if(typeof onUpdateCheck === 'function') onUpdateCheck('" + latestVer + "', `" + body + "`)", null));
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }).start();
         }
 
         @JavascriptInterface

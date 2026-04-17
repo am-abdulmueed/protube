@@ -29,172 +29,541 @@
 17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
 17-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:10:2-89
 17-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:10:19-86
-18
-19    <application
-19-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:11:2-79:16
-20        android:allowBackup="true"
-20-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:12:3-29
-21        android:debuggable="true"
-22        android:extractNativeLibs="true"
-23        android:icon="@mipmap/app_icon"
-23-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:14:3-34
-24        android:label="@string/app_name"
-24-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:13:3-35
-25        android:largeHeap="true"
-25-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:16:3-27
-26        android:roundIcon="@mipmap/app_icon"
-26-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:15:3-39
-27        android:theme="@style/AppTheme"
-27-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:18:3-34
-28        android:usesCleartextTraffic="true" >
-28-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:17:3-38
-29        <activity
-29-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:19:3-46:14
-30            android:name="com.google.android.abdul.protube.MainActivity"
-30-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:20:4-32
-31            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-31-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:21:4-97
-32            android:exported="true"
-32-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:25:25-48
-33            android:hardwareAccelerated="true"
-33-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:22:4-38
-34            android:screenOrientation="unspecified"
-34-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:26:4-43
-35            android:supportsPictureInPicture="true"
-35-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:23:4-43
-36            android:theme="@style/AppTheme" >
-36-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:24:11-42
-37            <intent-filter>
-37-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:27:4-30:20
-38                <action android:name="android.intent.action.MAIN" />
-38-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:28:5-56
-38-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:28:13-54
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:29:5-64
-40-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:29:15-62
-41            </intent-filter>
-42            <intent-filter>
-42-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:31:4-40:20
-43                <action android:name="android.intent.action.VIEW" />
-43-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:5-57
-43-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:13-54
-44
-45                <category android:name="android.intent.category.DEFAULT" />
-45-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
-45-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
-46                <category android:name="android.intent.category.BROWSABLE" />
-46-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:5-66
-46-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:15-63
-47
-48                <data android:scheme="http" />
-48-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-48-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
-49                <data android:scheme="https" />
-49-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-49-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
-50                <data android:host="youtube.com" />
-50-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-50-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
-51                <data android:host="*.youtube.com" />
-51-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-51-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
-52                <data android:host="youtu.be" />
-52-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-52-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
-53            </intent-filter>
-54            <intent-filter>
-54-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:41:4-45:20
-55                <action android:name="android.intent.action.SEND" />
-55-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:5-57
-55-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:13-54
-56
-57                <category android:name="android.intent.category.DEFAULT" />
-57-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
-57-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
-58
-59                <data android:mimeType="text/plain" />
-59-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-59-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:44:11-40
-60            </intent-filter>
-61        </activity>
-62        <activity
-62-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:47:3-70:14
-63            android:name="com.google.android.abdul.protube.DownloadFromIntentFilter"
-63-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:48:4-44
-64            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-64-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:49:4-97
-65            android:exported="true"
-65-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:53:4-27
-66            android:hardwareAccelerated="true"
-66-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:50:4-38
-67            android:screenOrientation="unspecified"
-67-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:54:4-43
-68            android:supportsPictureInPicture="true"
-68-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:51:4-43
-69            android:theme="@style/AppTheme" >
-69-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:52:4-35
-70            <intent-filter android:label="@string/dl" >
-70-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:31:4-40:20
-70-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:55:19-45
-71                <action android:name="android.intent.action.VIEW" />
-71-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:5-57
-71-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:13-54
-72
-73                <category android:name="android.intent.category.DEFAULT" />
-73-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
-73-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
-74                <category android:name="android.intent.category.BROWSABLE" />
-74-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:5-66
-74-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:15-63
-75
-76                <data android:scheme="http" />
-76-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-76-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
-77                <data android:scheme="https" />
-77-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-77-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
-78                <data android:host="youtube.com" />
-78-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-78-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
-79                <data android:host="*.youtube.com" />
-79-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-79-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
-80                <data android:host="youtu.be" />
-80-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-80-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
-81            </intent-filter>
-82            <intent-filter android:label="@string/dl" >
-82-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:41:4-45:20
-82-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:65:19-45
-83                <action android:name="android.intent.action.SEND" />
-83-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:5-57
-83-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:13-54
-84
-85                <category android:name="android.intent.category.DEFAULT" />
-85-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
-85-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
-86
-87                <data android:mimeType="text/plain" />
-87-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
-87-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:44:11-40
-88            </intent-filter>
-89        </activity>
-90
-91        <service
-91-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:71:3-76:6
-92            android:name="com.google.android.abdul.protube.ForegroundService"
-92-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:72:4-37
-93            android:enabled="true"
-93-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:73:4-26
-94            android:exported="true"
-94-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:74:4-27
-95            android:foregroundServiceType="mediaPlayback" />
-95-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:75:4-49
-96
-97        <receiver android:name="com.google.android.abdul.protube.NotificationActionService" />
-97-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:78:3-56
-97-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:78:13-54
-98    </application>
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:8:5-79
+18-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:8:22-76
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+19-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:10:5-79
+19-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+20-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:11:5-83
+20-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:11:22-80
+21    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+21-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:12:5-88
+21-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:12:22-85
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:25:5-68
+22-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:25:22-65
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
+23-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\45efdedce075a0717449bb66846a5847\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.google.android.abdul.protube.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\45efdedce075a0717449bb66846a5847\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\45efdedce075a0717449bb66846a5847\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.google.android.abdul.protube.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\45efdedce075a0717449bb66846a5847\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\45efdedce075a0717449bb66846a5847\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:11:2-79:16
+32        android:allowBackup="true"
+32-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:12:3-29
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\45efdedce075a0717449bb66846a5847\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="true"
+36        android:icon="@mipmap/app_icon"
+36-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:14:3-34
+37        android:label="@string/app_name"
+37-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:13:3-35
+38        android:largeHeap="true"
+38-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:16:3-27
+39        android:roundIcon="@mipmap/app_icon"
+39-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:15:3-39
+40        android:theme="@style/AppTheme"
+40-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:18:3-34
+41        android:usesCleartextTraffic="true" >
+41-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:17:3-38
+42        <activity
+42-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:19:3-46:14
+43            android:name="com.google.android.abdul.protube.MainActivity"
+43-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:20:4-32
+44            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+44-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:21:4-97
+45            android:exported="true"
+45-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:25:25-48
+46            android:hardwareAccelerated="true"
+46-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:22:4-38
+47            android:screenOrientation="unspecified"
+47-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:26:4-43
+48            android:supportsPictureInPicture="true"
+48-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:23:4-43
+49            android:theme="@style/AppTheme" >
+49-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:24:11-42
+50            <intent-filter>
+50-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:27:4-30:20
+51                <action android:name="android.intent.action.MAIN" />
+51-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:28:5-56
+51-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:28:13-54
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:29:5-64
+53-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:29:15-62
+54            </intent-filter>
+55            <intent-filter>
+55-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:31:4-40:20
+56                <action android:name="android.intent.action.VIEW" />
+56-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:5-57
+56-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:13-54
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+58-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
+59                <category android:name="android.intent.category.BROWSABLE" />
+59-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:5-66
+59-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:15-63
+60
+61                <data android:scheme="http" />
+61-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+61-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+62                <data android:scheme="https" />
+62-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+62-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+63                <data android:host="youtube.com" />
+63-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+63-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+64                <data android:host="*.youtube.com" />
+64-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+64-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+65                <data android:host="youtu.be" />
+65-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+65-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+66            </intent-filter>
+67            <intent-filter>
+67-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:41:4-45:20
+68                <action android:name="android.intent.action.SEND" />
+68-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:5-57
+68-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:13-54
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+70-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
+71
+72                <data android:mimeType="text/plain" />
+72-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+72-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:44:11-40
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:47:3-70:14
+76            android:name="com.google.android.abdul.protube.DownloadFromIntentFilter"
+76-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:48:4-44
+77            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+77-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:49:4-97
+78            android:exported="true"
+78-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:53:4-27
+79            android:hardwareAccelerated="true"
+79-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:50:4-38
+80            android:screenOrientation="unspecified"
+80-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:54:4-43
+81            android:supportsPictureInPicture="true"
+81-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:51:4-43
+82            android:theme="@style/AppTheme" >
+82-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:52:4-35
+83            <intent-filter android:label="@string/dl" >
+83-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:31:4-40:20
+83-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:55:19-45
+84                <action android:name="android.intent.action.VIEW" />
+84-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:5-57
+84-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:32:13-54
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+86-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:5-66
+87-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:34:15-63
+88
+89                <data android:scheme="http" />
+89-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+89-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+90                <data android:scheme="https" />
+90-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+90-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:11-32
+91                <data android:host="youtube.com" />
+91-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+91-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+92                <data android:host="*.youtube.com" />
+92-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+92-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+93                <data android:host="youtu.be" />
+93-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+93-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:37:11-37
+94            </intent-filter>
+95            <intent-filter android:label="@string/dl" >
+95-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:41:4-45:20
+95-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:65:19-45
+96                <action android:name="android.intent.action.SEND" />
+96-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:5-57
+96-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:42:13-54
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:5-64
+98-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:33:15-61
 99
-100</manifest>
+100                <data android:mimeType="text/plain" />
+100-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:35:5-35
+100-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:44:11-40
+101            </intent-filter>
+102        </activity>
+103
+104        <service
+104-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:71:3-76:6
+105            android:name="com.google.android.abdul.protube.ForegroundService"
+105-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:72:4-37
+106            android:enabled="true"
+106-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:73:4-26
+107            android:exported="true"
+107-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:74:4-27
+108            android:foregroundServiceType="mediaPlayback" />
+108-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:75:4-49
+109
+110        <receiver android:name="com.google.android.abdul.protube.NotificationActionService" />
+110-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:78:3-56
+110-->E:\Projects\IN_BUILD\YTPro-main\app\src\main\AndroidManifest.xml:78:13-54
+111
+112        <activity
+112-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:15:9-20:74
+113            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+113-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:16:13-74
+114            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+114-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:17:13-170
+115            android:exported="false"
+115-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:18:13-37
+116            android:hardwareAccelerated="true"
+116-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:19:13-47
+117            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+117-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:20:13-71
+118        <activity
+118-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:21:9-26:86
+119            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+119-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:22:13-85
+120            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+120-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:23:13-170
+121            android:exported="false"
+121-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:24:13-37
+122            android:hardwareAccelerated="true"
+122-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:25:13-47
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+123-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:26:13-83
+124        <activity
+124-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:27:9-32:86
+125            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+125-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:28:13-93
+126            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+126-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:29:13-170
+127            android:exported="false"
+127-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:30:13-37
+128            android:hardwareAccelerated="false"
+128-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:31:13-48
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+129-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:32:13-83
+130        <activity
+130-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:33:9-38:74
+131            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+131-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:34:13-82
+132            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+132-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:35:13-170
+133            android:exported="false"
+133-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:36:13-37
+134            android:hardwareAccelerated="false"
+134-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:37:13-48
+135            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+135-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:38:13-71
+136        <activity
+136-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:39:9-44:74
+137            android:name="com.unity3d.ads.adplayer.FullScreenWebViewDisplay"
+137-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:40:13-77
+138            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+138-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:41:13-170
+139            android:exported="false"
+139-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:42:13-37
+140            android:hardwareAccelerated="true"
+140-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:43:13-47
+141            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+141-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:44:13-71
+142
+143        <provider
+143-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:46:9-56:20
+144            android:name="androidx.startup.InitializationProvider"
+144-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:47:13-67
+145            android:authorities="com.google.android.abdul.protube.androidx-startup"
+145-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:48:13-68
+146            android:exported="false" >
+146-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
+147            <meta-data
+147-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:50:13-52:52
+148                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+148-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:51:17-78
+149                android:value="androidx.startup" />
+149-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:52:17-49
+150            <meta-data
+150-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:53:13-55:52
+151                android:name="com.unity3d.services.core.configuration.AdsSdkInitializer"
+151-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:54:17-89
+152                android:value="androidx.startup" />
+152-->[com.unity3d.ads:unity-ads:4.12.2] E:\INSTALLATION\.gradle\caches\8.13\transforms\d8d8fb1f7941665c89776bf9e2fc2990\transformed\jetified-unity-ads-4.12.2\AndroidManifest.xml:55:17-49
+153            <meta-data
+153-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+154                android:name="androidx.work.WorkManagerInitializer"
+154-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+155                android:value="androidx.startup" />
+155-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+156            <meta-data
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+158                android:value="androidx.startup" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+159        </provider>
+160
+161        <service
+161-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+162            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+162-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+163            android:directBootAware="false"
+163-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+164            android:enabled="@bool/enable_system_alarm_service_default"
+164-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+165            android:exported="false" />
+165-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+166        <service
+166-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+167            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+167-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+168            android:directBootAware="false"
+168-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+169            android:enabled="@bool/enable_system_job_service_default"
+169-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+170            android:exported="true"
+170-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+171            android:permission="android.permission.BIND_JOB_SERVICE" />
+171-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+172        <service
+172-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+173            android:name="androidx.work.impl.foreground.SystemForegroundService"
+173-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+174            android:directBootAware="false"
+174-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+175            android:enabled="@bool/enable_system_foreground_service_default"
+175-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+176            android:exported="false" />
+176-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+177
+178        <receiver
+178-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+179            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+179-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+180            android:directBootAware="false"
+180-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+181            android:enabled="true"
+181-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+182            android:exported="false" />
+182-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+183        <receiver
+183-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+184            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+184-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+185            android:directBootAware="false"
+185-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+186            android:enabled="false"
+186-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+187            android:exported="false" >
+187-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+188            <intent-filter>
+188-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+189                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+189-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+189-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+190                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+190-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+190-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+191            </intent-filter>
+192        </receiver>
+193        <receiver
+193-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+194            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+194-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+195            android:directBootAware="false"
+195-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+196            android:enabled="false"
+196-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+197            android:exported="false" >
+197-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+198            <intent-filter>
+198-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+199                <action android:name="android.intent.action.BATTERY_OKAY" />
+199-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+199-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+200                <action android:name="android.intent.action.BATTERY_LOW" />
+200-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+200-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+201            </intent-filter>
+202        </receiver>
+203        <receiver
+203-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+204            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+204-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+205            android:directBootAware="false"
+205-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+206            android:enabled="false"
+206-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+207            android:exported="false" >
+207-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+208            <intent-filter>
+208-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+209                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+209-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+209-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+210                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+210-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+210-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+211            </intent-filter>
+212        </receiver>
+213        <receiver
+213-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+214            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+214-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+215            android:directBootAware="false"
+215-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+216            android:enabled="false"
+216-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+217            android:exported="false" >
+217-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+218            <intent-filter>
+218-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+219                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+219-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+219-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+220            </intent-filter>
+221        </receiver>
+222        <receiver
+222-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+223            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+223-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+224            android:directBootAware="false"
+224-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+225            android:enabled="false"
+225-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+226            android:exported="false" >
+226-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+227            <intent-filter>
+227-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+228                <action android:name="android.intent.action.BOOT_COMPLETED" />
+228-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+228-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+229                <action android:name="android.intent.action.TIME_SET" />
+229-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+229-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+230                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+230-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+230-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+231            </intent-filter>
+232        </receiver>
+233        <receiver
+233-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+234            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+234-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+235            android:directBootAware="false"
+235-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+236            android:enabled="@bool/enable_system_alarm_service_default"
+236-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+237            android:exported="false" >
+237-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+238            <intent-filter>
+238-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+239                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+239-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+239-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+240            </intent-filter>
+241        </receiver>
+242        <receiver
+242-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+243            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+243-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+245            android:enabled="true"
+245-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+246            android:exported="true"
+246-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+247            android:permission="android.permission.DUMP" >
+247-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+248            <intent-filter>
+248-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+249                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+249-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+249-->[androidx.work:work-runtime:2.7.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\bd89a989f74dc596d7a5640469b1bbb6\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+250            </intent-filter>
+251        </receiver>
+252
+253        <activity
+253-->[com.google.android.gms:play-services-base:18.0.1] E:\INSTALLATION\.gradle\caches\8.13\transforms\ed8e017b754a4238bade236025e6ac91\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+254            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+254-->[com.google.android.gms:play-services-base:18.0.1] E:\INSTALLATION\.gradle\caches\8.13\transforms\ed8e017b754a4238bade236025e6ac91\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+255            android:exported="false"
+255-->[com.google.android.gms:play-services-base:18.0.1] E:\INSTALLATION\.gradle\caches\8.13\transforms\ed8e017b754a4238bade236025e6ac91\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+256            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+256-->[com.google.android.gms:play-services-base:18.0.1] E:\INSTALLATION\.gradle\caches\8.13\transforms\ed8e017b754a4238bade236025e6ac91\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+257
+258        <meta-data
+258-->[com.google.android.gms:play-services-basement:18.0.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\1e04f76708d8eb737f2d59efa9f080ad\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+259            android:name="com.google.android.gms.version"
+259-->[com.google.android.gms:play-services-basement:18.0.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\1e04f76708d8eb737f2d59efa9f080ad\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+260            android:value="@integer/google_play_services_version" />
+260-->[com.google.android.gms:play-services-basement:18.0.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\1e04f76708d8eb737f2d59efa9f080ad\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+261
+262        <receiver
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+263            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+264            android:directBootAware="false"
+264-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+265            android:enabled="true"
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+266            android:exported="true"
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+267            android:permission="android.permission.DUMP" >
+267-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+268            <intent-filter>
+268-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+269                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+269-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+269-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+270            </intent-filter>
+271            <intent-filter>
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+272                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+273            </intent-filter>
+274            <intent-filter>
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+275                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+276            </intent-filter>
+277            <intent-filter>
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+278                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\INSTALLATION\.gradle\caches\8.13\transforms\935a3f8a9eb7c798090f2f5f956ce1cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+279            </intent-filter>
+280        </receiver>
+281
+282        <service
+282-->[androidx.room:room-runtime:2.2.5] E:\INSTALLATION\.gradle\caches\8.13\transforms\7421dd3fd8cff49636be192a54f0923c\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+283            android:name="androidx.room.MultiInstanceInvalidationService"
+283-->[androidx.room:room-runtime:2.2.5] E:\INSTALLATION\.gradle\caches\8.13\transforms\7421dd3fd8cff49636be192a54f0923c\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+284            android:directBootAware="true"
+284-->[androidx.room:room-runtime:2.2.5] E:\INSTALLATION\.gradle\caches\8.13\transforms\7421dd3fd8cff49636be192a54f0923c\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+285            android:exported="false" />
+285-->[androidx.room:room-runtime:2.2.5] E:\INSTALLATION\.gradle\caches\8.13\transforms\7421dd3fd8cff49636be192a54f0923c\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+286    </application>
+287
+288</manifest>

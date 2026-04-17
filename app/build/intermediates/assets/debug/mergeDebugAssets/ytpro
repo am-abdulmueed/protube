@@ -27,7 +27,7 @@ if (window.eruda == null && localStorage.getItem("devMode") == "true") {
 if (!YTProVer) {
 
   /*Few Stupid Inits*/
-  var YTProVer = "3.95";
+  var YTProVer = "3.96";
   var ytoldV = "";
   var isF = false;   //what is this for?
   var isAp = false; // oh it's for bg play 
@@ -580,15 +580,19 @@ color:${isD ? "#ccc" : "#444"};`);
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 #settingsprodiv a{text-decoration:underline;} #settingsprodiv li{list-style:none; display:flex;align-items:center;justify-content:center;color:#fff;border-radius:25px;padding:10px;background:#000;margin:5px;}
 #ssprodivI div{
-height:10px;
-width:calc(100% - 20px);
-padding:10px;
+height:auto;
+min-height:20px;
+width:calc(100% - 40px);
+padding:15px;
 font-size:1.45rem;
 text-align:left;
 display:flex;
 align-items:center;
 position:relative;
-margin-top:3px;
+margin: 10px auto;
+background: ${isD ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.05)"};
+border-radius: 15px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 #ssprodivI div span{
 display:block;
@@ -746,7 +750,7 @@ color:${c};
 </svg>
 </button>
 <br>
-<button style="font-weight:bolder;" onclick="Android.share('Protube 100% free without any ads : https://am-abdulmueed.vercel.app/download');">Share Protube
+<button style="font-weight:bolder;" onclick="Android.share('Protube 100% free without any ads (a very very light weight app less then 2mb) : https://am-abdulmueed.vercel.app/download');">Share Protube
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="${isD ? "#ccc" : "#444"}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <circle cx="18" cy="5" r="3"></circle>
   <circle cx="6" cy="12" r="3"></circle>
@@ -2536,7 +2540,7 @@ Latest Version ${YTProVer} of Protube is available , update the Protube to get l
 <br>
 <div style="display:flex;">
 <!--<button style="border:0;border-radius:10px;height:30px;width:150px;background:;" onclick="this.parentElement.parentElement.parentElement.remove();">Cancel</button>-->
-<button style="border:0;border-radius:10px;height:30px;width:150px;background:rgba(255,50,50,.7);float:right;" onclick="Android.downvid('Protube.zip','https://nightly.link/am-abdulmueed/protube/workflows/gradle/main/Protube.zip','application/zip');">Download</button>
+<button style="border:0;border-radius:10px;height:30px;width:150px;background:rgba(255,50,50,.7);float:right;" onclick="Android.oplink('https://github.com/am-abdulmueed/protube/releases/latest/download/protube.apk');">Download</button>
 </div>
 
 </div>

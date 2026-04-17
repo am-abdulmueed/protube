@@ -1,1 +1,3 @@
-ab muaj reward ads lagnai ha ka suer jab app kko open kara to user koe k dialog show ho ka "wathc just 1 ad and use ulimites without ads
+- [x] app ki settings ko ek card ki surat ma deckna (Updated in assets/ytpro)
+- [x] github workflow gradle.yml ma retention 3 days add karna aur releases automate karna
+- [x] Production-ready update check system (GitHub API integrated for dynamic detection)

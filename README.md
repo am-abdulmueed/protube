@@ -2,26 +2,21 @@
 <p align="center">
 <img src='https://raw.githubusercontent.com/am-abdulmueed/protube/main/.github/img/ytpro.gif' height=150  >
 </p>
-<h1 align=center>YT PRO </h1>
+<h1 align=center>Protube </h1>
 
 <div align="center">
 
 
-[![Gradle](https://github.com/am-abdulmueed/protube/actions/workflows/gradle.yml/badge.svg)](https://github.com/am-abdulmueed/protube/actions/workflows/gradle.yml)
+
 <a href="https://www.jsdelivr.com/package/npm/ytpro?tab=stats" ><img alt="jsDelivr monthly hits badge" src="https://data.jsdelivr.com/v1/package/npm/ytpro/badge"></a>
-<img src=https://img.shields.io/github/downloads/am-abdulmueed/protube/total >
+<img src=https://img.shields.io/github/downloads/prateek-chaubey/YTPro/total >
 
 </div>
 
-### Become a Sponsor 
----
-> [!TIP]
-> If you like this project, consider [sponsoring](https://github.com/sponsors/prateek-chaubey) to support the author 🌸
----
 
 ## Download YT PRO
 
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-ff0000?style=for-the-badge&logo=download&logoColor=white "Download Apk")](https://nightly.link/am-abdulmueed/protube/workflows/gradle/main/YTPRO.zip)
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-ff0000?style=for-the-badge&logo=download&logoColor=white "Download Apk")](https://github.com/am-abdulmueed/protube/releases/latest/download/protube.apk)
 
 #### Screenshots
 | | | |
@@ -66,17 +61,7 @@ The available variables for gemini prompt are
  * Add basic features to the video player
  * Enhance Audio
  * Merging Adaptive Formats
-
-### Credits
- * [Sponsor Block](https://github.com/ajayyy/SponsorBlock)
- * [return-youtube-dislike](https://github.com/Anarios/return-youtube-dislike)
- * [YouTube.js](https://github.com/LuanRT/YouTube.js/)
-
-### ❤️Supporters❤️
-[![Stargazers repo roster for @am-abdulmueed/protube](http://reporoster.com/stars/dark/am-abdulmueed/protube)](https://github.com/am-abdulmueed/protube/stargazers)
-     
-[![Forkers repo roster for @am-abdulmueed/protube](http://reporoster.com/forks/dark/am-abdulmueed/protube)](https://github.com/am-abdulmueed/protube/network/members)
-
+  
 
 ## Disclaimer 
 This is an educational project aimed at showcasing javascript injection into a webview to enhance productivity.

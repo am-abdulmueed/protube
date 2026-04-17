@@ -23,10 +23,24 @@ jobs:
       run: cmd.exe /c gradlew.bat assembleRelease
 
     - name: Sign
-      run: cmd.exe /c java.exe -jar "signer\ApkSigner.jar" sign --key "signer\apkeasytool.pk8" --cert "signer\apkeasytool.pem"  --v4-signing-enabled false --out "%cd%/app/build/outputs/apk/release/youtube_pro_signed.apk" "%cd%/app/build/outputs/apk/release/app-release-unsigned.apk"
+      run: |
+        move "app/build/outputs/apk/release/protube.apk" "app/build/outputs/apk/release/unsigned.apk"
+        cmd.exe /c java.exe -jar "signer\ApkSigner.jar" sign --key "signer\apkeasytool.pk8" --cert "signer\apkeasytool.pem"  --v4-signing-enabled false --out "app/build/outputs/apk/release/protube.apk" "app/build/outputs/apk/release/unsigned.apk"
       
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
           name: YTPRO
-          path: "app/build/outputs/apk/release/youtube_pro_signed.apk"
+          path: "app/build/outputs/apk/release/protube.apk"
+          retention-days: 3
+
+    - name: Release
+      uses: ncipollo/release-action@v1
+      with:
+          artifacts: "app/build/outputs/apk/release/protube.apk"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: v${{ github.run_number }}
+          name: Release v${{ github.run_number }}
+          body: "Auto-generated release from GitHub Actions."
+          allowUpdates: true
+          makeLatest: true
